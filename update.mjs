@@ -217,7 +217,7 @@ const packageJSON = [
   '.czrc',
   '.cz-config.js',
   '.versionrc*',
-  '.gitignore',
+  
   ...workspaces,
   ...buildTools,
   ...services,
