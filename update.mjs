@@ -122,7 +122,6 @@ const workspaces = [
   'yarn*',
   'firebase.json',
   'bun.lockb',
-  '*.code-workspace'
 ]
 
 const docker = [
@@ -196,8 +195,6 @@ const libraries = [
   'windi.config.*',
   'i18n.config.*',
   'vuetify.config.*',
-  'codegen.*',
-  'apollo.config.*',
   ...env,
   ...testingTools,
   ...tsconfig,
@@ -213,11 +210,11 @@ const packageJSON = [
   'nodemon*',
   'pm2.*',
   'typedoc*',
+  'apollo.config.*',
   'vetur.config.*',
   '.czrc',
   '.cz-config.js',
   '.versionrc*',
-  '.gitignore',
   ...workspaces,
   ...buildTools,
   ...services,
